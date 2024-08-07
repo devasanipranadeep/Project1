@@ -1,0 +1,271 @@
+body{
+    background-color:rgb(21, 20, 20);
+    color: #E0FFFF;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.navbar .searchbar{
+    display: flex;
+    gap: 50px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.productcontainer{
+    display: flex;
+    gap: 8%;
+}
+.productdetails img{
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 2px; 
+}
+.rating::after{
+    background-color: white;
+    display: block;
+    width: 350px;
+    height: 1px;
+    content: "";
+    opacity: 40%;
+    position: absolute;
+    top: 315px;
+}
+strike{
+    font-size: medium;
+}
+.productcontainer{
+    margin-left: 80px;
+}
+.stock{
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 15px 10px 35px;
+    border-radius: 5px;
+    position: absolute;
+    top:53% ;
+    left: 84%;
+}
+.tick{
+    position: absolute;
+    top: 54.6%;
+    left: 85%;
+    font-size: small;
+    font-weight: bolder;
+}
+.cost::after{
+    background-color: white;
+    display: block;
+    width: 350px;
+    height: 1px;
+    content: "";
+    opacity: 40%;
+    position: absolute;
+    top: 485px;
+}
+.objective{
+    display: flex;
+    gap: 10px;
+}
+.objective p{
+    border: 1px solid whitesmoke;
+    padding: 8px 26px 8px 8px;
+    border-radius: 3px;
+}
+.objective::after{
+    background-color: white;
+    display: block;
+    width: 350px;
+    height: 1px;
+    content: "";
+    opacity: 40%;
+    position: absolute;
+    top: 93%;
+}
+.addtocart{
+    background-color: red;
+    color: white;
+    width: 296px;
+    padding: 10px 80px;
+    border: none;
+    border-radius: 2px;
+    display: block;
+}
+.related{
+    text-align: center;
+    gap: 20px;
+}
+.related button{
+    align-items: center;
+    font-size: large;
+    display: flex;
+    background-color:rgb(21,20,20);
+    color: white;
+    padding: 10px 60px;
+    border: none;
+    border-radius: 2px;
+    display: inline;
+}
+.related button:hover{
+    background-color: red;
+}
+.text{
+    display: flex;
+    gap: 350px;
+    margin-left: 45px;
+}
+
+.boldtags{
+    text-align: right;
+}
+.products1{
+    display: flex;
+    gap: 40px;
+    font-size: 20px;
+    margin-left: 30px;
+}
+.card1 h3{
+    margin: 0px;
+    font-size: xx-large;
+}
+.card1 .image{
+    background-color: rgb(33, 33, 33);
+    padding: 10px 60px;
+}
+.card1{
+    border: 1px solid rgb(79, 71, 71);
+    border-radius: 3px;
+    width: 330px;
+    padding: 0px 0px;
+}
+.dotcon{
+    font-size: x-small;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.middlecircle{
+    background-color: red;
+    border-radius: 90%;
+    height: 9px;  
+}
+.card1 .image{
+    background-color: rgb(33, 33, 33);
+    padding: 10px 60px;
+}
+.card1 p::after{
+    background-color: white;
+    display: block;
+    width: 295px;
+    margin-top: 15px;
+    height: 1px;
+    content: "";
+    opacity: 40%;
+}
+.details{
+    padding: 15px;
+}
+.card1 .cardratings{
+    color: red;
+}
+.adv{
+    text-align: center;
+}
+.delivery h3{
+    margin: 0px;
+}
+.delivery p{
+    margin: 0px;
+}
+.express{
+    font-size: xx-large;
+    color: red;
+}
+.icon1{
+    display: flex;
+    gap: 20px;
+}
+.icon2{
+    display: flex;
+    gap: 20px;
+}
+.icon3{
+    display: flex;
+    gap: 20px;
+}
+.icon4{
+    display: flex;
+    gap: 20px;
+}
+.icon{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+.subscribe{
+    background-color: red;
+    color: white;
+    border-radius: 2px;
+    padding: 8px 35px;
+    border: none;
+}
+input{
+    width: 300px;
+    height: 30px;
+    border: 1px solid whitesmoke;
+    background-color:black;
+    color: white;
+    border-radius: 3px;
+    padding: 5px;
+}
+.footercontent{
+    display: flex;
+    flex-direction: column;
+    display: block;
+    margin-left: 20px;
+}
+.bottom{
+    display: flex;
+    padding: 5px;
+    margin-left: 20px;
+}
+.socialmedia{
+    display: flex;
+    padding: 5px 50px;
+    gap: 20px;
+}
+.company{
+    margin-left: 100px;
+}
+.footer2 hr{
+    opacity: 40%;
+}
+.foot{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 5px;
+}
+.ad p{
+    margin: 0px;
+}
+.para p{
+    margin: 0px;
+}
+.footer2{
+    background-color: black;
+}
+.footer1{
+    display: flex;
+    gap: 270px;
+    padding: 0px 10px;
+}
+body, footer{
+    margin: 0;
+    padding: 0;
+}
+

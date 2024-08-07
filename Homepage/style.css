@@ -1,0 +1,282 @@
+body{
+    background-color:rgb(21, 20, 20);
+    color: #E0FFFF;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.navbar .searchbar{
+    display: flex;
+    gap: 50px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.navbar h1{
+    font-size: xx-large;
+    margin:0px;
+}
+strike{
+    margin-left: 15px;
+    font-size: large;
+    opacity: 60%;
+}
+.shopnow{
+    background-color: red;
+    color: white;
+    padding: 10px 45px;
+    border: none;
+    border-radius: 2px;
+    display: block;
+}
+.product1{
+    display: flex;
+    flex-direction: column;
+}
+.boat131{
+    font-size: xx-large;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 100px;
+    margin-top: 50px;
+}
+.dotcon{
+    font-size: x-small;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.middlecircle{
+    background-color: red;
+    border-radius: 90%;
+    height: 9px;
+    margin-bottom: 2px;   
+}
+.FeaturedProducts{
+    font-size: xx-large;
+    text-align: center;
+}
+.featuredcard1{
+    font-size: small;
+    padding: 8px;
+    text-align: center;
+    margin-top: 50px;
+}
+.featuredcard2{
+    font-size: medium;
+    padding: 8px;
+    text-align: center;
+    margin-top: 30px;
+}
+.featuredcard3{
+    font-size: large;
+    padding: 8px;
+    text-align: center;
+}
+.featuredcards{
+    display: flex;
+    justify-content: space-between;
+}
+.Top{
+    text-align: center;
+}
+.btnnnnn{
+    text-align: center;
+    font-size: medium;
+    display: flex;
+    justify-content: space-evenly;
+}
+.btnn{
+    font-size: medium;
+    padding: 10px 20px;
+    border-radius: 3px; 
+    border: none;
+    background-color:rgb(30, 27, 27);
+    color: white;
+}
+.addtocart{
+    background-color: red;
+    color: white;
+    padding: 10px 117.5px;
+    border: none;
+    border-radius: 2px;
+    display: block;
+}
+.card1{
+    border: 1px solid rgb(79, 71, 71);
+    border-radius: 3px;
+    width: 365px;
+    padding: 0px 0px;
+}
+.products1{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+.products2{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+.products3{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+.browse{
+    text-align: center;
+    margin-right: 10px;
+}
+.card2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(79, 71, 71);
+    border-radius: 3px;
+    width: 320px;
+    padding: 5px 20px;
+    gap: 20px;
+    position: relative;
+}
+.arrow{
+    position: absolute;
+    top: 57%;
+    left: 63%;
+}
+.pro{
+    position: absolute;
+    top: 49%;
+    left: 29%;
+}
+.card1 h3{
+    margin: 0px;
+    font-size: xx-large;
+}
+.card1 .image{
+    background-color: rgb(33, 33, 33);
+    padding: 10px 60px;
+}
+.card1 p::after{
+    background-color: white;
+    display: block;
+    width: 330px;
+    margin-top: 15px;
+    height: 1px;
+    content: "";
+    opacity: 40%;
+}
+.card1 p{
+    margin: 0px;
+    font-size:medium;
+}
+.card1 .rating{
+    color: red;
+}
+.card1 span{
+    font-size: xx-large;
+}
+.card1 .details{
+    margin-left: 15px;
+}
+.adv{
+    text-align: center;
+}
+.delivery h3{
+    margin: 0px;
+}
+.delivery p{
+    margin: 0px;
+}
+.express{
+    font-size: xx-large;
+    color: red;
+}
+.icon1{
+    display: flex;
+    gap: 20px;
+}
+.icon2{
+    display: flex;
+    gap: 20px;
+}
+.icon3{
+    display: flex;
+    gap: 20px;
+}
+.icon4{
+    display: flex;
+    gap: 20px;
+}
+.icon{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+.subscribe{
+    background-color: red;
+    color: white;
+    border-radius: 2px;
+    padding: 8px 35px;
+    border: none;
+}
+input{
+    width: 300px;
+    height: 30px;
+    border: 1px solid whitesmoke;
+    background-color:black;
+    color: white;
+    border-radius: 3px;
+    padding: 5px;
+}
+.footercontent{
+    display: flex;
+    flex-direction: column;
+    display: block;
+    margin-left: 20px;
+}
+.bottom{
+    display: flex;
+    padding: 5px;
+    margin-left: 20px;
+}
+.socialmedia{
+    display: flex;
+    padding: 5px 50px;
+    gap: 20px;
+}
+.company{
+    margin-left: 100px;
+}
+.footer2 hr{
+    opacity: 40%;
+}
+.foot{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 5px;
+}
+.ad p{
+    margin: 0px;
+}
+.para p{
+    margin: 0px;
+}
+.footer2{
+    background-color: black;
+}
+.footer1{
+    display: flex;
+    gap: 270px;
+    padding: 0px 10px;
+}
+body, footer{
+    margin: 0;
+    padding: 0;
+}
